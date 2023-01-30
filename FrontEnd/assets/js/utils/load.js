@@ -1,6 +1,6 @@
 //IMPORTS
 
-import { modal } from '../module/modal.js'
+import { modal } from '../modules/modal.js'
 
 //CONSTANTES
 

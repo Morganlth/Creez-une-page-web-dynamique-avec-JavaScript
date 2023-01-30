@@ -1,7 +1,7 @@
 //IMPORTS
 
-import { filter } from './module/filter.js'
-import { login } from './module/login.js'
+import { filter } from './modules/filter.js'
+import { login } from './modules/login.js'
 
 //CODE
 
