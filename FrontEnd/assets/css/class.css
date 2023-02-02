@@ -1,0 +1,80 @@
+/*? default */
+
+h3
+{
+    font-size: 26px;
+    font-weight: 400;
+}
+
+hr
+{
+    width: 100%;
+
+    margin-bottom: 38px;
+
+    border: none;
+    border-bottom: solid #B3B3B3 1px;
+}
+
+/*? class */
+
+.hidden
+{
+    display: none !important;
+}
+.flex
+{
+    display: flex;
+}
+.center
+{
+    justify-content: center;
+	align-items: center;
+}
+
+.js-module button
+{
+	height: 37px;
+
+	background-color: transparent;
+
+	border: solid #1D6154 1px;
+	border-radius: 60px;
+
+	color: #1D6154;
+
+	cursor: pointer;
+}
+.js-module button[type="button"]
+{
+	padding: 0 22px;
+}
+.js-module button[type="submit"]
+{
+	padding: 0 39px;
+}
+.js-module button:hover
+{
+	color: #B1663C;
+}
+
+.active
+{
+	background-color: #1D6154 !important;
+
+	color: white !important;
+}
+
+.js-anchor .edit-icon
+{
+	width: 18px;
+}
+
+.js-edit
+{
+    cursor: pointer;
+}
+.js-edit:hover, #login:hover
+{
+    color: #B1663C;
+}

@@ -1,0 +1,300 @@
+#login
+{
+	text-decoration: none;
+}
+
+#introduction>figure .js-anchor
+{
+    width: 80%;
+
+    margin: 15px auto 0;
+}
+#introduction>article .js-edit
+{
+    display: inline-block;
+
+    margin-bottom: 19px;
+}
+
+#portfolio>.js-anchor>h2
+{
+    margin: 0 30px;
+}
+
+#js-filter-module
+{
+	justify-content: center;
+	gap: 0 10px;
+
+	margin: 51px 0;
+}
+#js-filter-module button
+{
+    font-size: 16px;
+	font-weight: 700;
+}
+
+#js-header
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+
+	width: 100%;
+	height: 59px;
+
+	background-color: #000000;
+}
+#js-header>.edit-icon
+{
+	width: 19px;
+}
+#js-header>p
+{
+	margin: 0 21px 0 9px;
+
+	color: white;
+	font-size: 16px;
+}
+#js-header>button
+{
+	background-color: white;
+
+	border: none;
+
+	color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#js-modal-module
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.3);
+}
+#js-modal-module>div
+{
+    position: relative;
+
+    width: 630px;
+    /* max-height: 731px; */
+
+    padding: 60px 105px;
+
+    background-color: #FFFFFF;
+
+    border-radius: 10px;
+
+    box-sizing: border-box;
+}
+#js-modal-module nav
+{
+    position: relative;
+    top: -16px;
+}
+#js-modal-module section
+{
+    margin: 0;
+}
+#modal-back
+{
+    position: absolute;
+    left: -58px;
+
+    width: 21px;
+
+    cursor: pointer;
+}
+#modal-close
+{
+    position: absolute;
+    right: -58px;
+
+    width: 12px;
+
+    cursor: pointer;
+}
+#modal-close img
+{
+    width: 12px;
+}
+#js-modal-module h3
+{
+    text-align: center;
+}
+#modal-remove>div
+{
+    display: grid;
+    grid-template: repeat(auto-fit, 130px) / repeat(5, 18%);
+    gap: 0 2.5%;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    overflow-y: auto;
+
+    width: 100%;
+    max-height: 432px;
+
+    margin-top: 46px;
+
+    box-sizing: border-box;
+}
+#modal-remove>div>div
+{
+    position: relative;
+}
+#modal-remove img
+{
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    object-position: center;
+}
+#modal-remove>div button[type="button"]
+{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+
+    width: 17px;
+    height: 17px;
+
+    padding: 0;
+
+    background-color: #000000;
+
+    border: none;
+    border-radius: 2px;
+}
+#modal-remove svg
+{
+    width: 9px;
+
+    fill: white;
+}
+#modal-remove>div button[type="button"]:hover>svg
+{
+    fill: #D65353;
+}
+#modal-remove>button, #modal-add button
+{
+    display: block;
+
+    width: 237px;
+
+    margin: 0 auto 23px;
+
+    font-size: 14px;
+    font-weight: 700;
+}
+#modal-remove>a
+{
+    display: block;
+
+    color: #D65353;
+    text-align: center;
+
+    cursor: pointer;
+}
+
+#modal-add>form
+{
+    flex-direction: column;
+
+    margin-top: 36px;
+}
+#modal-file-container
+{
+    overflow: hidden;
+
+    height: 169px;
+
+    margin-bottom: 30px;
+
+    background-color: #E8F1F7;
+
+    text-align: center;
+}
+#modal-file-container>div
+{
+    flex-direction: column;
+
+    height: 100%;
+}
+#modal-image-icon
+{
+    width: 58px;
+    height: 46px !important;
+}
+#overview-image
+{
+    height: 100%;
+}
+#modal-add label[for="modal-image"]
+{
+    height: 36px;
+
+    margin: 21px 0 7px;
+    padding: 0 33px;
+
+    background-color: #CBD6DC;
+
+    border-radius: 50px;
+
+    color: #306685;
+    font-size: 14px;
+    font-weight: 500;
+
+    cursor: pointer;
+}
+#modal-add span
+{
+    color: #444444;
+    font-size: 10px;
+    font-weight: 400;
+}
+#modal-add label:not(label[for="modal-image"])
+{
+    display: block;
+
+	margin-bottom: 7px;
+
+	font-size: 14px;
+}
+#modal-add input:not(#modal-image), #modal-add select
+{
+	width: 100%;
+	height: 50px;
+
+    padding: 0 16px;
+
+	background-color: white;
+
+	border: none;
+
+	box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.09);
+    box-sizing: border-box;
+}
+#modal-add input:not(#modal-image)
+{
+    margin-bottom: 20px;
+}
+#modal-add select
+{
+    margin-bottom: 47px;
+}
+#modal-add button
+{
+    background-color: #A7A7A7;
+
+    border: none;
+    
+    color: #FFFFFF;
+}
